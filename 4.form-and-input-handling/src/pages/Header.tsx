@@ -5,6 +5,7 @@ const Header = () => {
       <ul>
         <li> <Link to="/">Uncontrlolled Component/input</Link> </li>
         <li> <Link to="/form-page-controlled">controlled Component/input</Link> </li>
+        <li> <Link to="/react-hooks-form">react hooks form</Link> </li>
       </ul>
   </>)
 
