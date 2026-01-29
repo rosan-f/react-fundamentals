@@ -1,0 +1,94 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Rosan",
+      "position": "Frontend Developer",
+      "department": "Engineering",
+      "email": "rosan@company.com",
+      "salary": 8500000,
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Nara",
+      "position": "Backend Developer",
+      "department": "Engineering",
+      "email": "nara@company.com",
+      "salary": 9500000,
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "name": "Dimas",
+      "position": "UI/UX Designer",
+      "department": "Product",
+      "email": "dimas@company.com",
+      "salary": 8000000,
+      "isActive": true
+    },
+    {
+      "id": 4,
+      "name": "Alya",
+      "position": "Project Manager",
+      "department": "Management",
+      "email": "alya@company.com",
+      "salary": 12000000,
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "name": "Rizky",
+      "position": "QA Engineer",
+      "department": "Quality Assurance",
+      "email": "rizky@company.com",
+      "salary": 7800000,
+      "isActive": false
+    },
+    {
+      "id": 6,
+      "name": "Sinta",
+      "position": "Data Analyst",
+      "department": "Data",
+      "email": "sinta@company.com",
+      "salary": 9000000,
+      "isActive": true
+    },
+    {
+      "id": 7,
+      "name": "Bima",
+      "position": "DevOps Engineer",
+      "department": "Infrastructure",
+      "email": "bima@company.com",
+      "salary": 11000000,
+      "isActive": true
+    },
+    {
+      "id": 8,
+      "name": "Putri",
+      "position": "HR Specialist",
+      "department": "Human Resources",
+      "email": "putri@company.com",
+      "salary": 7000000,
+      "isActive": true
+    },
+    {
+      "id": 9,
+      "name": "Andi",
+      "position": "Mobile Developer",
+      "department": "Engineering",
+      "email": "andi@company.com",
+      "salary": 8800000,
+      "isActive": false
+    },
+    {
+      "id": 10,
+      "name": "Kevin",
+      "position": "System Administrator",
+      "department": "IT Operations",
+      "email": "kevin@company.com",
+      "salary": 10000000,
+      "isActive": true
+    }
+  ]
+}
