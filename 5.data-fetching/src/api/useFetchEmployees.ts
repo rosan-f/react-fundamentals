@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { axiosIstance } from "../lib/axios";
 
 type Employee = {
   id: string;
@@ -18,14 +19,19 @@ export const useFetchEmployees = () => {
   const fetchEmployees = async () => {
     try {
       setIsLoading(true);
-      const request = await fetch("http://127.0.0.1:2000/employees");
-      const responseJson = (await request.json()) as Employee[];
-      setEmployees(responseJson);
+      // const request = await fetch("http://127.0.0.1:2000/employees");
+      // const responseJson = (await request.json()) as Employee[];
+
+      const response = await axiosIstance.get<Employee[]>("/employees");
+      setEmployees(response.data);
+
     } catch (error) {
       setEmployeesError((error as TypeError).message);
+
     } finally {
       setIsLoading(false);
       setEmployeesError("")
+
     }
   };
 

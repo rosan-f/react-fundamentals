@@ -1,7 +1,7 @@
 {
   "employees": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Rosan",
       "position": "Frontend Developer",
       "department": "Engineering",
@@ -10,7 +10,7 @@
       "isActive": true
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Nara",
       "position": "Backend Developer",
       "department": "Engineering",
@@ -19,7 +19,7 @@
       "isActive": true
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Dimas",
       "position": "UI/UX Designer",
       "department": "Product",
@@ -28,7 +28,7 @@
       "isActive": true
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Alya",
       "position": "Project Manager",
       "department": "Management",
@@ -37,7 +37,7 @@
       "isActive": true
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Rizky",
       "position": "QA Engineer",
       "department": "Quality Assurance",
@@ -46,7 +46,7 @@
       "isActive": false
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Sinta",
       "position": "Data Analyst",
       "department": "Data",
@@ -55,7 +55,7 @@
       "isActive": true
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Bima",
       "position": "DevOps Engineer",
       "department": "Infrastructure",
@@ -64,7 +64,7 @@
       "isActive": true
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Putri",
       "position": "HR Specialist",
       "department": "Human Resources",
@@ -73,7 +73,7 @@
       "isActive": true
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Andi",
       "position": "Mobile Developer",
       "department": "Engineering",
@@ -82,13 +82,58 @@
       "isActive": false
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Kevin",
       "position": "System Administrator",
       "department": "IT Operations",
       "email": "kevin@company.com",
       "salary": 10000000,
       "isActive": true
+    },
+    {
+      "id": "3b66",
+      "name": "tesss",
+      "position": "gada",
+      "department": "gada",
+      "email": "fikrirausyan131@gmail.com",
+      "salary": 123123,
+      "isActive": "true"
+    },
+    {
+      "id": "b48c",
+      "name": "tesss",
+      "position": "gada",
+      "department": "gada",
+      "email": "fikrirausyan131@gmail.com",
+      "salary": 123123,
+      "isActive": "true"
+    },
+    {
+      "id": "d7f6",
+      "name": "tesss",
+      "position": "gada",
+      "department": "gada",
+      "email": "fikrirausyan131@gmail.com",
+      "salary": 123123,
+      "isActive": "true"
+    },
+    {
+      "id": "e5f7",
+      "name": "rosan",
+      "position": "tess",
+      "department": "tess",
+      "email": "fikrirausyan131@gmail.com",
+      "salary": 1000000,
+      "isActive": "true"
+    },
+    {
+      "id": "7631",
+      "name": "fikri",
+      "position": "presiden",
+      "department": "kantro",
+      "email": "afea@gmail.com",
+      "salary": 123123123,
+      "isActive": "true"
     }
   ]
 }
