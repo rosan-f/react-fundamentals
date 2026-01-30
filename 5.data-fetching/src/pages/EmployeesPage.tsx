@@ -1,31 +1,8 @@
-import { useState } from "react";
-
-type Employee = {
-  id: string;
-  name: string;
-  position: string;
-  department: string;
-  email: string;
-  salary: string;
-  isActive: boolean;
-};
+import { useFetchEmployees } from "../api/useFetchEmployees";
 
 const EmployeesPage = () => {
-  const [employees, setEmployees] = useState<Employee[]>([]);
-  const [isLoading, setIsLoading] = useState(false);
 
-  const fetchEmployees = async () => {
-    try {
-      setIsLoading(true);
-      const request = await fetch("http://127.0.0.1:2000/employees");
-      const responseJson = (await request.json()) as Employee[];
-      setEmployees(responseJson);
-    } catch (error) {
-      alert(error);
-    } finally {
-      setIsLoading(false);
-    }
-  };
+  const {employees, EmployeesError, fetchEmployees, isLoading} = useFetchEmployees()
 
   return (
     <div>
@@ -46,7 +23,7 @@ const EmployeesPage = () => {
         <tbody>
           {employees.map((employee) => {
             return (
-              <tr>
+              <tr key={employee.id}>
                 <td>{employee.name}</td>
                 <td>{employee.position}</td>
                 <td>{employee.department}</td>
@@ -63,6 +40,7 @@ const EmployeesPage = () => {
         fetchEmployees{" "}
       </button>
       {isLoading && <p>Loading...</p>}
+      {EmployeesError && <p>{EmployeesError}</p>}
     </div>
   );
 };
